@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-07T09:07:21Z" name="Default suite" finished-at="2020-05-07T09:08:19Z" duration-ms="58212">
+    <groups>
+    </groups>
+    <test started-at="2020-05-07T09:07:21Z" name="Default test" finished-at="2020-05-07T09:08:19Z" duration-ms="58212">
+      <class name="CoronaSelenium.SeleniumInCorona.Demo">
+        <test-method is-config="true" signature="getHome()[pri:0, instance:CoronaSelenium.SeleniumInCorona.Demo@291caca8]" started-at="2020-05-07T14:37:21Z" name="getHome" finished-at="2020-05-07T14:37:37Z" duration-ms="16398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHome -->
+        <test-method signature="findbrokenLinks()[pri:0, instance:CoronaSelenium.SeleniumInCorona.Demo@291caca8]" started-at="2020-05-07T14:37:37Z" name="findbrokenLinks" finished-at="2020-05-07T14:38:16Z" duration-ms="39023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findbrokenLinks -->
+        <test-method signature="highLightText()[pri:0, instance:CoronaSelenium.SeleniumInCorona.Demo@291caca8]" started-at="2020-05-07T14:38:16Z" name="highLightText" finished-at="2020-05-07T14:38:19Z" duration-ms="2768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- highLightText -->
+      </class> <!-- CoronaSelenium.SeleniumInCorona.Demo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
