@@ -1,6 +1,6 @@
 package CoronaSelenium.SeleniumInCorona;
 
-import org.testng.annotations.Test;
+
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
@@ -11,6 +11,7 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -21,7 +22,7 @@ public class Demo extends Base{
 	@BeforeTest
 	public void getHome() throws IOException
 	{
-		driver=initDriver();
+		driver=(RemoteWebDriver) initDriver();
 	}
 	
 	@Test
